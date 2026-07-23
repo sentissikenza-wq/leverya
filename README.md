@@ -1,4 +1,4 @@
-# Site web · Kenza Sentissi
+# Site web · Leverya
 
 Landing page de présentation des services et produits IA (conseil, formation,
 audit de maturité et accompagnement à la transformation), pour les entreprises.
