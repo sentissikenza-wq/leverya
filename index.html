@@ -36,8 +36,18 @@
     <header class="site-header" id="haut">
       <div class="container header-inner">
         <a class="brand" href="#haut" aria-label="Retour en haut">
-          <span class="brand-mark">L</span>
-          <span class="brand-name">Leverya</span>
+          <svg class="brand-logo" viewBox="0 0 150 32" aria-label="Leverya">
+            <defs>
+              <linearGradient id="logo-g" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#c15e3e"/>
+                <stop offset="100%" stop-color="#e0906f"/>
+              </linearGradient>
+            </defs>
+            <rect width="32" height="32" rx="9" fill="url(#logo-g)"/>
+            <path d="M10.5 23.5v-15h3v12h8v3z" fill="#fff"/>
+            <path d="M23.5 8.5l1.3 3.2 3.2 1.3-3.2 1.3-1.3 3.2-1.3-3.2-3.2-1.3 3.2-1.3z" fill="#fff" opacity="0.9"/>
+            <text x="40" y="23.5" font-family="Inter,system-ui,sans-serif" font-size="19.5" font-weight="700" letter-spacing="-0.3" fill="#3b2a21">leverya</text>
+          </svg>
         </a>
 
         <nav class="nav" aria-label="Navigation principale">
@@ -83,7 +93,7 @@
               sans rien lâcher sur la qualité.
             </h1>
             <p class="hero-sub">
-              J'installe l'IA au coeur de vos process, pas à côté. Vos équipes
+              J'installe l'IA au coeur de vos processus, pas à côté. Vos équipes
               gagnent des heures sur leurs productions, sans sacrifier votre
               exigence ni votre image de marque.
             </p>
@@ -263,11 +273,11 @@
               <p class="offer-tagline">Le résultat, sans vous fatiguer.</p>
               <p class="offer-text">
                 Pour ceux qui veulent aller droit au but : je conçois et déploie
-                les solutions IA dans vos process, je mesure le temps gagné et
+                les solutions IA dans vos processus, je mesure le temps gagné et
                 j'accompagne le passage à l'échelle.
               </p>
               <ul class="check-list">
-                <li>Solutions installées dans vos process</li>
+                <li>Solutions installées dans vos processus</li>
                 <li>Mesure du temps gagné (ROI)</li>
                 <li>Passage à l'échelle accompagné</li>
               </ul>
@@ -331,7 +341,7 @@
                   <span class="tl-kicker">Concrétiser</span>
                   <h3>On déploie et on mesure</h3>
                   <p>
-                    Les usages s'installent dans les process, les livrables
+                    Les usages s'installent dans les processus, les livrables
                     sortent plus vite, et on mesure le temps regagné.
                   </p>
                 </div>
@@ -431,8 +441,8 @@
                 <img src="assets/images/kenza-speaking.png" alt="Kenza, fondatrice de Leverya, lors d'une intervention" />
               </div>
               <div class="about-badge">
-                <strong>Ex-audit &amp; conseil</strong>
-                <span>Crédit Agricole</span>
+                <strong>Kenza Sentissi</strong>
+                <span>Ex-executive en banque, audit &amp; conseil</span>
               </div>
               <span class="spark about-spark">✦</span>
             </div>
@@ -443,21 +453,26 @@
                 Je connais la pression <em>du livrable carré</em>
               </h2>
               <p>
-                Avant d'installer l'IA chez les autres, j'ai passé des années à
-                produire des livrables exigeants. Ex-inspectrice et chef de
-                mission en audit et conseil stratégique (Crédit Agricole), je
-                sais ce qu'est un document qui ne souffre aucune approximation.
+                Avant d'installer l'IA chez les autres, j'ai passé douze ans à
+                produire des livrables exigeants. Executive dans la banque et
+                l'assurance, à l'international et au Maroc, ex-inspectrice et
+                chef de mission en audit et conseil stratégique : je sais ce
+                qu'est un document qui ne souffre aucune approximation.
               </p>
               <p>
-                C'est pour ça que j'installe l'IA dans vos process, pas à côté :
-                sans jargon, sans esbroufe, avec une obsession pour la qualité et
-                la confidentialité de vos données.
+                C'est pour ça que j'installe l'IA dans vos processus, pas à
+                côté : simplement, concrètement, avec une attention constante à
+                la qualité et à la confidentialité de vos données.
               </p>
-              <p class="about-note">
-                Présentation à affiner ensemble avec ton vrai parcours détaillé.
-              </p>
+              <ul class="about-tags" aria-label="Domaines d'expertise">
+                <li>12 ans en corporate banking</li>
+                <li>Audit &amp; conseil stratégique</li>
+                <li>Conduite du changement</li>
+                <li>Transformation des équipes</li>
+                <li>International &amp; Maroc</li>
+              </ul>
               <a class="btn btn-primary" href="#contact">
-                Échanger sur votre cabinet
+                Échanger sur votre besoin
                 <svg class="btn-arrow" viewBox="0 0 24 24" aria-hidden="true">
                   <path d="M5 12h14M13 6l6 6-6 6" />
                 </svg>
@@ -519,7 +534,7 @@
             </details>
             <details class="faq-item">
               <summary>L'IA ne risque-t-elle pas de sortir du générique ou du faux ?<span class="faq-icon"></span></summary>
-              <div class="faq-answer"><p>Si on la laisse faire seule, oui. Tout l'enjeu est de l'alimenter avec vos vraies sources et de garder l'humain sur la qualité. C'est exactement ce que j'installe dans vos process.</p></div>
+              <div class="faq-answer"><p>Si on la laisse faire seule, oui. Tout l'enjeu est de l'alimenter avec vos vraies sources et de garder l'humain sur la qualité. C'est exactement ce que j'installe dans vos processus.</p></div>
             </details>
             <details class="faq-item">
               <summary>Faut-il des prérequis techniques ?<span class="faq-icon"></span></summary>
@@ -563,22 +578,20 @@
                 </ul>
               </div>
 
-              <!-- Encart prise de rendez-vous (a brancher sur Calendly) -->
               <div class="booking-card" id="calendly">
                 <div class="booking-head">
-                  <span class="booking-dot"></span> Créneaux disponibles
+                  <span class="booking-dot"></span> Réservez votre créneau
                 </div>
-                <div class="booking-slots">
-                  <button class="slot" type="button">Mar. 09:00</button>
-                  <button class="slot" type="button">Mar. 14:30</button>
-                  <button class="slot slot-on" type="button">Jeu. 11:00</button>
-                  <button class="slot" type="button">Ven. 16:00</button>
+                <div class="calendly-embed">
+                  <iframe
+                    src="https://calendly.com/sentissi-kenza/30min?hide_gdpr_banner=1&background_color=fbf2ec&text_color=3b2a21&primary_color=c15e3e"
+                    width="100%"
+                    height="660"
+                    frameborder="0"
+                    title="Réserver un pré-diagnostic"
+                    loading="lazy"
+                  ></iframe>
                 </div>
-                <a class="btn btn-light btn-lg booking-btn" href="mailto:sentissi.kenza@gmail.com?subject=Pr%C3%A9-diagnostic%20IA">
-                  Choisir mon créneau
-                  <svg class="btn-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
-                </a>
-                <p class="booking-note">Sera connecté à votre Calendly.</p>
               </div>
             </div>
           </div>
@@ -590,8 +603,13 @@
     <footer class="site-footer">
       <div class="container footer-inner">
         <div class="footer-brand">
-          <span class="brand-mark">L</span>
-          <p>L'IA installée dans vos process, pour des livrables plus rapides sans perdre en qualité.</p>
+          <svg class="brand-logo brand-logo-footer" viewBox="0 0 150 32" aria-label="Leverya">
+            <rect width="32" height="32" rx="9" fill="#c15e3e"/>
+            <path d="M10.5 23.5v-15h3v12h8v3z" fill="#fff"/>
+            <path d="M23.5 8.5l1.3 3.2 3.2 1.3-3.2 1.3-1.3 3.2-1.3-3.2-3.2-1.3 3.2-1.3z" fill="#fff" opacity="0.9"/>
+            <text x="40" y="23.5" font-family="Inter,system-ui,sans-serif" font-size="19.5" font-weight="700" letter-spacing="-0.3" fill="#fff">leverya</text>
+          </svg>
+          <p>L'IA installée dans vos processus, pour des livrables plus rapides sans perdre en qualité.</p>
         </div>
         <nav class="footer-nav" aria-label="Pied de page">
           <a href="#offres">Offres</a>
@@ -603,7 +621,9 @@
       </div>
       <div class="container footer-bottom">
         <p>© 2026 Leverya. Tous droits réservés.</p>
-        <p class="footer-note">Site en cours de personnalisation.</p>
+        <a class="footer-legal-link" href="mentions-legales.html"
+          >Mentions légales &amp; confidentialité</a
+        >
       </div>
     </footer>
 
