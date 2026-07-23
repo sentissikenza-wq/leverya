@@ -1,0 +1,19 @@
+# Dependances (si on ajoute des outils plus tard)
+node_modules/
+
+# Fichiers systeme
+Thumbs.db
+.DS_Store
+
+# Journaux
+*.log
+
+# Captures et artefacts generes par Playwright pendant le developpement
+.playwright-mcp/
+*-playwright.png
+
+# Claude Code (config locale, pas dans le depot)
+.claude/
+
+# Vercel (config locale generee par vercel cli)
+.vercel/

@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="J'aide les cabinets de conseil et les équipes exigeantes à produire leurs livrables deux fois plus vite grâce à l'IA, sans sacrifier la qualité ni leur image. Acculturation, diagnostic, formation et déploiement sur-mesure."
+    />
+    <title>Kenza Sentissi · L'IA au service de vos livrables</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='26' fill='%23C15E3E'/%3E%3Ctext x='50' y='73' font-family='Georgia,serif' font-size='60' font-weight='600' text-anchor='middle' fill='white'%3EK%3C/text%3E%3C/svg%3E"
+    />
+
+    <!-- Polices : Inter (texte, coherent avec le brand kit) + Fraunces (accents editoriaux) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500;1,9..144,600&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Formes organiques animees en fond -->
+    <div class="bg-decor" aria-hidden="true">
+      <span class="blob blob-1"></span>
+      <span class="blob blob-2"></span>
+      <span class="blob blob-3"></span>
+    </div>
+
+    <!-- ===================== EN-TETE ===================== -->
+    <header class="site-header" id="haut">
+      <div class="container header-inner">
+        <a class="brand" href="#haut" aria-label="Retour en haut">
+          <span class="brand-mark">KS</span>
+          <span class="brand-name">Kenza Sentissi</span>
+        </a>
+
+        <nav class="nav" aria-label="Navigation principale">
+          <a href="#offres">Offres</a>
+          <a href="#methode">Méthode</a>
+          <a href="#apropos">À propos</a>
+          <a href="#faq">Questions</a>
+        </nav>
+
+        <a class="btn btn-primary btn-sm nav-cta" href="#contact">
+          Mon pré-diagnostic
+          <svg class="btn-arrow" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M5 12h14M13 6l6 6-6 6" />
+          </svg>
+        </a>
+
+        <button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+
+      <div class="mobile-menu" id="mobileMenu" hidden>
+        <a href="#offres">Offres</a>
+        <a href="#methode">Méthode</a>
+        <a href="#apropos">À propos</a>
+        <a href="#faq">Questions</a>
+        <a class="btn btn-primary" href="#contact">Mon pré-diagnostic</a>
+      </div>
+    </header>
+
+    <main>
+      <!-- ===================== HERO ===================== -->
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="kicker">
+              <span class="kicker-dot"></span>
+              Pour les cabinets de conseil et les équipes exigeantes
+            </p>
+            <h1 class="hero-title">
+              Produisez vos livrables
+              <em>deux fois plus vite</em>,
+              sans rien lâcher sur la qualité.
+            </h1>
+            <p class="hero-sub">
+              J'installe l'IA au coeur de vos process, pas à côté. Vos équipes
+              gagnent des heures sur leurs productions, sans sacrifier votre
+              exigence ni votre image de marque.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary btn-lg" href="#contact">
+                Réserver mon pré-diagnostic
+                <svg class="btn-arrow" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 12h14M13 6l6 6-6 6" />
+                </svg>
+              </a>
+              <a class="btn btn-ghost btn-lg" href="#methode">Voir la méthode</a>
+            </div>
+
+            <ul class="hero-stats">
+              <li>
+                <span class="stat-num" data-target="2" data-suffix="x">0</span>
+                <span class="stat-label">plus vite sur vos livrables</span>
+              </li>
+              <li>
+                <span class="stat-num" data-target="4" data-suffix="">0</span>
+                <span class="stat-label">étapes, la méthode 4C</span>
+              </li>
+              <li>
+                <span class="stat-num" data-target="100" data-suffix="%">0</span>
+                <span class="stat-label">à votre image</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Visuel anime : un livrable qui se genere -->
+          <div class="hero-visual reveal" aria-hidden="true">
+            <div class="doc-window">
+              <div class="doc-bar">
+                <span></span><span></span><span></span>
+                <div class="doc-pill">
+                  <span class="doc-dot-live"></span> Rédaction en cours
+                </div>
+              </div>
+              <div class="doc-body">
+                <div class="doc-title-line"></div>
+                <div class="doc-line l1"></div>
+                <div class="doc-line l2"></div>
+                <div class="doc-line l3"></div>
+                <div class="doc-line l4"></div>
+                <div class="doc-sep"></div>
+                <div class="doc-line l5"></div>
+                <div class="doc-line l6"></div>
+                <div class="doc-line l7"></div>
+              </div>
+            </div>
+
+            <div class="float-card float-card-time">
+              <div class="fc-icon">
+                <svg viewBox="0 0 24 24"><circle cx="12" cy="13" r="8" /><path d="M12 9v4l2.5 2.5M12 3h0M9 3h6" /></svg>
+              </div>
+              <div>
+                <strong>-6 h</strong>
+                <span>par livrable</span>
+              </div>
+            </div>
+
+            <div class="float-card float-card-quality">
+              <div class="fc-icon fc-icon-2">
+                <svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5" /></svg>
+              </div>
+              <div>
+                <strong>Conforme</strong>
+                <span>à votre charte</span>
+              </div>
+            </div>
+
+            <span class="spark spark-1">✦</span>
+            <span class="spark spark-2">✦</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== MARQUEE CIBLES ===================== -->
+      <section class="marquee-wrap" aria-label="Structures accompagnées">
+        <div class="marquee">
+          <div class="marquee-track">
+            <span>Cabinets d'audit</span><i>◆</i>
+            <span>Cabinets d'avocats</span><i>◆</i>
+            <span>Experts-comptables</span><i>◆</i>
+            <span>Cabinets de conseil</span><i>◆</i>
+            <span>Agences</span><i>◆</i>
+            <span>Bureaux d'études</span><i>◆</i>
+            <span>Cabinets d'audit</span><i>◆</i>
+            <span>Cabinets d'avocats</span><i>◆</i>
+            <span>Experts-comptables</span><i>◆</i>
+            <span>Cabinets de conseil</span><i>◆</i>
+            <span>Agences</span><i>◆</i>
+            <span>Bureaux d'études</span><i>◆</i>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== OFFRES (4C) ===================== -->
+      <section class="section" id="offres">
+        <div class="container">
+          <header class="section-head reveal">
+            <p class="eyebrow">Ce que je propose</p>
+            <h2 class="section-title">
+              Quatre leviers, <em>activables séparément</em> ou en parcours complet
+            </h2>
+            <p class="section-lead">
+              Chacun répond à un moment précis. Ensemble, ils forment la méthode
+              4C : de la première question posée jusqu'aux livrables qui sortent
+              tout seuls.
+            </p>
+          </header>
+
+          <div class="cards-grid">
+            <article class="card offer-card reveal">
+              <div class="offer-top">
+                <span class="offer-letter">C</span>
+                <span class="offer-step">Comprendre</span>
+              </div>
+              <h3>Acculturation à l'IA</h3>
+              <p class="offer-tagline">Une base commune, sans jargon.</p>
+              <p class="offer-text">
+                Une séance pour que tout le monde saisisse ce qu'est l'IA, à quoi
+                elle sert et où elle aide vraiment. On lève les peurs, on aligne
+                l'équipe, on laisse mûrir.
+              </p>
+              <ul class="check-list">
+                <li>Ateliers adaptés à tous les niveaux</li>
+                <li>Démystifier l'IA et rassurer</li>
+                <li>Premiers réflexes par métier</li>
+              </ul>
+            </article>
+
+            <article class="card offer-card reveal">
+              <div class="offer-top">
+                <span class="offer-letter">C</span>
+                <span class="offer-step">Cartographier</span>
+              </div>
+              <h3>Diagnostic de maturité</h3>
+              <p class="offer-tagline">Savoir où vous en êtes, et par où commencer.</p>
+              <p class="offer-text">
+                Un audit léger ou approfondi selon votre besoin. Une équipe
+                acculturée fait remonter de vrais cas d'usage métier. On priorise
+                selon l'impact et on trace la feuille de route.
+              </p>
+              <ul class="check-list">
+                <li>Audit modulable, léger ou poussé</li>
+                <li>Cas d'usage remontés du terrain</li>
+                <li>Feuille de route claire et priorisée</li>
+              </ul>
+            </article>
+
+            <article class="card offer-card reveal">
+              <div class="offer-top">
+                <span class="offer-letter">C</span>
+                <span class="offer-step">Compétences</span>
+              </div>
+              <h3>Formation sur-mesure</h3>
+              <p class="offer-tagline">Des compétences ancrées dans vos livrables.</p>
+              <p class="offer-text">
+                Une formation construite autour de vos cas d'usage réels, pas à
+                pas, jusqu'à l'autonomie. Chaque équipe repart avec des méthodes
+                applicables dès le lendemain.
+              </p>
+              <ul class="check-list">
+                <li>Contenus bâtis sur vos vrais dossiers</li>
+                <li>Construction progressive, pas à pas</li>
+                <li>Montée en autonomie de l'équipe</li>
+              </ul>
+            </article>
+
+            <article class="card offer-card reveal">
+              <div class="offer-top">
+                <span class="offer-letter">C</span>
+                <span class="offer-step">Concrétiser</span>
+              </div>
+              <h3>Déploiement sur-mesure</h3>
+              <p class="offer-tagline">Le résultat, sans vous fatiguer.</p>
+              <p class="offer-text">
+                Pour ceux qui veulent aller droit au but : je conçois et déploie
+                les solutions IA dans vos process, je mesure le temps gagné et
+                j'accompagne le passage à l'échelle.
+              </p>
+              <ul class="check-list">
+                <li>Solutions installées dans vos process</li>
+                <li>Mesure du temps gagné (ROI)</li>
+                <li>Passage à l'échelle accompagné</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== METHODE 4C ===================== -->
+      <section class="section section-method" id="methode">
+        <div class="container">
+          <div class="method-panel reveal">
+            <header class="section-head section-head-left">
+              <p class="eyebrow">La méthode 4C</p>
+              <h2 class="section-title">
+                On acculture <em>d'abord</em>, pour que tout le reste soit pertinent
+              </h2>
+              <p class="section-lead">
+                Pas besoin de tout révolutionner d'un coup. On avance étape par
+                étape, chacune préparant la suivante, à votre rythme.
+              </p>
+            </header>
+
+            <ol class="timeline" id="timeline">
+              <li class="tl-step">
+                <span class="tl-node">C</span>
+                <div class="tl-body">
+                  <span class="tl-kicker">Comprendre</span>
+                  <h3>On acculture l'équipe</h3>
+                  <p>
+                    Tout le monde repart avec la même compréhension de l'IA. Les
+                    craintes tombent, la curiosité monte, et on laisse infuser.
+                  </p>
+                </div>
+              </li>
+              <li class="tl-step">
+                <span class="tl-node">C</span>
+                <div class="tl-body">
+                  <span class="tl-kicker">Cartographier</span>
+                  <h3>On diagnostique la maturité</h3>
+                  <p>
+                    Maintenant qu'elle comprend, l'équipe fait remonter de vrais
+                    cas d'usage. On les priorise et on dessine la trajectoire.
+                  </p>
+                </div>
+              </li>
+              <li class="tl-step">
+                <span class="tl-node">C</span>
+                <div class="tl-body">
+                  <span class="tl-kicker">Compétences</span>
+                  <h3>On forme sur vos cas réels</h3>
+                  <p>
+                    Une formation sur-mesure, construite sur vos dossiers, pas à
+                    pas, jusqu'à ce que l'équipe soit autonome.
+                  </p>
+                </div>
+              </li>
+              <li class="tl-step">
+                <span class="tl-node">C</span>
+                <div class="tl-body">
+                  <span class="tl-kicker">Concrétiser</span>
+                  <h3>On déploie et on mesure</h3>
+                  <p>
+                    Les usages s'installent dans les process, les livrables
+                    sortent plus vite, et on mesure le temps regagné.
+                  </p>
+                </div>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== AVANT / APRES ===================== -->
+      <section class="section">
+        <div class="container">
+          <header class="section-head reveal">
+            <p class="eyebrow">Le changement concret</p>
+            <h2 class="section-title">Le même livrable, <em>deux fois plus vite</em></h2>
+          </header>
+
+          <div class="ba-grid reveal">
+            <div class="ba-card ba-before">
+              <span class="ba-tag">Avant</span>
+              <h3>Le livrable prend des jours</h3>
+              <ul class="ba-list">
+                <li>Tout repose sur vous, vous êtes le goulot d'étranglement</li>
+                <li>Des heures de mise en forme et de relecture</li>
+                <li>La peur de l'erreur ou du hors-charte</li>
+              </ul>
+              <div class="ba-bar"><i style="--w: 90%"></i><b>Lent</b></div>
+            </div>
+
+            <div class="ba-arrow" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+            </div>
+
+            <div class="ba-card ba-after">
+              <span class="ba-tag ba-tag-after">Après</span>
+              <h3>L'IA fait le gros oeuvre</h3>
+              <ul class="ba-list">
+                <li>Vos équipes produisent la première version en minutes</li>
+                <li>Vous gardez la main sur la qualité et le fond</li>
+                <li>Un rendu conforme à votre charte, à chaque fois</li>
+              </ul>
+              <div class="ba-bar ba-bar-after"><i style="--w: 42%"></i><b>2x plus vite</b></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== POUR QUI ===================== -->
+      <section class="section" id="pourqui">
+        <div class="container">
+          <header class="section-head reveal">
+            <p class="eyebrow">Pour qui ?</p>
+            <h2 class="section-title">Vous vous reconnaissez ?</h2>
+          </header>
+
+          <div class="persona-grid">
+            <article class="card persona-card reveal">
+              <div class="persona-ico">
+                <svg viewBox="0 0 24 24"><path d="M3 21h18M6 21V8l6-4 6 4v13M10 12h4M10 16h4" /></svg>
+              </div>
+              <h3>Vous dirigez un cabinet</h3>
+              <p>
+                Vous sentez que l'IA va compter, mais vous manquez d'un cap clair
+                pour décider où investir et par quoi commencer.
+              </p>
+            </article>
+            <article class="card persona-card reveal">
+              <div class="persona-ico">
+                <svg viewBox="0 0 24 24"><path d="M4 19V5m0 14h16M8 15l3-4 3 2 4-6" /></svg>
+              </div>
+              <h3>Vos équipes croulent sous les livrables</h3>
+              <p>
+                Rapports, notes, propositions : la production prend un temps fou
+                et tout doit passer par vous pour la relecture.
+              </p>
+            </article>
+            <article class="card persona-card reveal">
+              <div class="persona-ico">
+                <svg viewBox="0 0 24 24"><path d="M12 3l2.5 5.5L20 9l-4 4 1 6-5-3-5 3 1-6-4-4 5.5-.5z" /></svg>
+              </div>
+              <h3>Vous voulez industrialiser sans perdre en qualité</h3>
+              <p>
+                Vous cherchez à aller plus vite et à grandir, mais pas au prix de
+                votre exigence ni de votre image de marque.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== A PROPOS ===================== -->
+      <section class="section section-about" id="apropos">
+        <div class="container">
+          <div class="about-grid reveal">
+            <div class="about-media">
+              <div class="about-frame">
+                <img src="assets/images/kenza-speaking.png" alt="Kenza Sentissi lors d'une intervention" />
+              </div>
+              <div class="about-badge">
+                <strong>Ex-audit &amp; conseil</strong>
+                <span>Crédit Agricole</span>
+              </div>
+              <span class="spark about-spark">✦</span>
+            </div>
+
+            <div class="about-body">
+              <p class="eyebrow">À propos</p>
+              <h2 class="section-title">
+                Je connais la pression <em>du livrable carré</em>
+              </h2>
+              <p>
+                Avant d'installer l'IA chez les autres, j'ai passé des années à
+                produire des livrables exigeants. Ex-inspectrice et chef de
+                mission en audit et conseil stratégique (Crédit Agricole), je
+                sais ce qu'est un document qui ne souffre aucune approximation.
+              </p>
+              <p>
+                C'est pour ça que j'installe l'IA dans vos process, pas à côté :
+                sans jargon, sans esbroufe, avec une obsession pour la qualité et
+                la confidentialité de vos données.
+              </p>
+              <p class="about-note">
+                Présentation à affiner ensemble avec ton vrai parcours détaillé.
+              </p>
+              <a class="btn btn-primary" href="#contact">
+                Échanger sur votre cabinet
+                <svg class="btn-arrow" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 12h14M13 6l6 6-6 6" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== PREUVE / CONFIANCE ===================== -->
+      <section class="section" id="preuve">
+        <div class="container">
+          <header class="section-head reveal">
+            <p class="eyebrow">Pourquoi me faire confiance</p>
+            <h2 class="section-title">Du terrain, pas des promesses</h2>
+          </header>
+
+          <div class="trust-grid">
+            <article class="card trust-card reveal">
+              <div class="trust-ico"><svg viewBox="0 0 24 24"><path d="M12 3l7 4v5c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V7z" /></svg></div>
+              <h3>Expérience terrain</h3>
+              <p>Des années en audit et conseil : je sais ce qu'est un livrable irréprochable.</p>
+            </article>
+            <article class="card trust-card reveal">
+              <div class="trust-ico"><svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h10" /></svg></div>
+              <h3>Méthode éprouvée</h3>
+              <p>La démarche 4C, pensée pour ancrer les usages, pas pour faire joli en démo.</p>
+            </article>
+            <article class="card trust-card reveal">
+              <div class="trust-ico"><svg viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="9" rx="2" /><path d="M8 11V8a4 4 0 0 1 8 0v3" /></svg></div>
+              <h3>Données maîtrisées</h3>
+              <p>La confidentialité de vos dossiers clients est au coeur de chaque choix d'outil.</p>
+            </article>
+            <article class="card trust-card reveal">
+              <div class="trust-ico"><svg viewBox="0 0 24 24"><path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8" /></svg></div>
+              <h3>Objectif autonomie</h3>
+              <p>Le but n'est pas de vous rendre dépendant, mais de rendre vos équipes autonomes.</p>
+            </article>
+          </div>
+
+          <p class="proof-soon reveal">
+            <span>★★★★★</span> Les premiers retours clients arriveront ici très bientôt.
+          </p>
+        </div>
+      </section>
+
+      <!-- ===================== FAQ ===================== -->
+      <section class="section section-faq" id="faq">
+        <div class="container narrow">
+          <header class="section-head reveal">
+            <p class="eyebrow">Questions fréquentes</p>
+            <h2 class="section-title">Ce que me demandent les cabinets</h2>
+          </header>
+
+          <div class="faq reveal">
+            <details class="faq-item">
+              <summary>Et la confidentialité de nos données clients ?<span class="faq-icon"></span></summary>
+              <div class="faq-answer"><p>C'est la première question, et elle est centrale. On choisit les outils et les réglages qui gardent vos données sous contrôle, et on pose les bonnes pratiques dès le départ.</p></div>
+            </details>
+            <details class="faq-item">
+              <summary>L'IA ne risque-t-elle pas de sortir du générique ou du faux ?<span class="faq-icon"></span></summary>
+              <div class="faq-answer"><p>Si on la laisse faire seule, oui. Tout l'enjeu est de l'alimenter avec vos vraies sources et de garder l'humain sur la qualité. C'est exactement ce que j'installe dans vos process.</p></div>
+            </details>
+            <details class="faq-item">
+              <summary>Faut-il des prérequis techniques ?<span class="faq-icon"></span></summary>
+              <div class="faq-answer"><p>Aucun. Tout part de l'acculturation, accessible même en partant de zéro. On avance à votre rythme, avec des exemples tirés de vos dossiers.</p></div>
+            </details>
+            <details class="faq-item">
+              <summary>Par où commence-t-on ?<span class="faq-icon"></span></summary>
+              <div class="faq-answer"><p>Par un pré-diagnostic offert : un premier échange pour cerner vos enjeux et choisir la bonne porte d'entrée, de l'acculturation au déploiement.</p></div>
+            </details>
+            <details class="faq-item">
+              <summary>En présentiel ou à distance ?<span class="faq-icon"></span></summary>
+              <div class="faq-answer"><p>Les deux. Les ateliers gagnent souvent à se faire en présentiel, le suivi peut se poursuivre à distance, selon vos contraintes.</p></div>
+            </details>
+            <details class="faq-item">
+              <summary>Combien de temps avant de voir un résultat ?<span class="faq-icon"></span></summary>
+              <div class="faq-answer"><p>Un premier livrable accéléré peut apparaître dès les premières semaines. On mesure ensemble le temps gagné pour piloter la suite.</p></div>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== CONTACT / CTA ===================== -->
+      <section class="section" id="contact">
+        <div class="container">
+          <div class="cta-panel reveal">
+            <span class="spark cta-spark-1">✦</span>
+            <span class="spark cta-spark-2">✦</span>
+
+            <div class="cta-inner">
+              <div class="cta-copy">
+                <p class="eyebrow eyebrow-light">Passons à l'action</p>
+                <h2 class="cta-title">Réservez votre <em>pré-diagnostic offert</em></h2>
+                <p class="cta-lead">
+                  Un premier échange, sans engagement, pour comprendre vos enjeux
+                  et voir combien de temps l'IA peut vous faire gagner.
+                </p>
+                <ul class="cta-points">
+                  <li>30 minutes, en visio</li>
+                  <li>Aucune préparation nécessaire</li>
+                  <li>Repartez avec une première piste concrète</li>
+                </ul>
+              </div>
+
+              <!-- Encart prise de rendez-vous (a brancher sur Calendly) -->
+              <div class="booking-card" id="calendly">
+                <div class="booking-head">
+                  <span class="booking-dot"></span> Créneaux disponibles
+                </div>
+                <div class="booking-slots">
+                  <button class="slot" type="button">Mar. 09:00</button>
+                  <button class="slot" type="button">Mar. 14:30</button>
+                  <button class="slot slot-on" type="button">Jeu. 11:00</button>
+                  <button class="slot" type="button">Ven. 16:00</button>
+                </div>
+                <a class="btn btn-light btn-lg booking-btn" href="mailto:sentissi.kenza@gmail.com?subject=Pr%C3%A9-diagnostic%20IA">
+                  Choisir mon créneau
+                  <svg class="btn-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+                </a>
+                <p class="booking-note">Sera connecté à votre Calendly.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ===================== PIED DE PAGE ===================== -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <span class="brand-mark">KS</span>
+          <p>L'IA installée dans vos process, pour des livrables plus rapides sans perdre en qualité.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Pied de page">
+          <a href="#offres">Offres</a>
+          <a href="#methode">Méthode</a>
+          <a href="#apropos">À propos</a>
+          <a href="#faq">Questions</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+      <div class="container footer-bottom">
+        <p>© 2026 Kenza Sentissi. Tous droits réservés.</p>
+        <p class="footer-note">Site en cours de personnalisation.</p>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
